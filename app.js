@@ -82,7 +82,7 @@ app.get('/todo', function (req, res) {
 
     .listen(port, function () {
         // Logging to console
-        console.log(`Todolist running on http://localhost:${port}`)
+        console.log(`Todolist running on localhost:${port}`)
     });
 // Export app
 module.exports = app;
